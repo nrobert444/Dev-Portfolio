@@ -99,3 +99,18 @@ export const ItemTextWrap = styled.div`
 export const FormatP = styled.h4`
   margin: 50px;
 `
+export const StyledProjLink = styled.a`
+  color: black;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:visited {
+    color: white;
+  }
+  &:link,
+  &:active {
+    text-decoration: none;
+    color: white;
+  }
+`
