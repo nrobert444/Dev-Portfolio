@@ -4,6 +4,7 @@ import { Container } from '../Container/Container'
 import { TechLogoContainer } from '../TechLogoContainer/TechLogoContainer'
 import { TechSkillContainer } from '../TechSkillContainer/TechSkillContainer'
 import { BottomLine, SectionTitle } from '../Container/Container.style'
+import Fade from 'react-reveal/Fade'
 
 export const AboutTech = () => {
   return (
@@ -13,9 +14,13 @@ export const AboutTech = () => {
         <BottomLine />
       </Container>
       <TechGrid className='bg-dark py-3'>
-        <TechSkillContainer />
+        <Fade left>
+          <TechSkillContainer />
+        </Fade>
         <DivideLine />
-        <TechLogoContainer />
+        <Fade right>
+          <TechLogoContainer />
+        </Fade>
       </TechGrid>
       {/* <Buffer /> */}
     </>

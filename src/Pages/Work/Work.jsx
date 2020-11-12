@@ -1,12 +1,11 @@
 import React from 'react'
-import HeaderSub from '../../components/HeaderSub/HeaderSub'
-import { Footer } from '../../components/Footer/Footer'
 import {
   ItemsContainer,
   Item,
   ItemImage,
   ItemText,
-  ItemTextWrap
+  ItemTextWrap,
+  FormatP
 } from './Work.styles'
 import { Container } from '../../components/Container/Container'
 import {
@@ -19,8 +18,6 @@ import Fade from 'react-reveal/Fade'
 export const Work = () => {
   return (
     <div>
-      {/* <HeaderSub /> */}
-
       <section className='text-center py-3'>
         <Container>
           <SectionTitle>My Work</SectionTitle>
@@ -41,14 +38,14 @@ export const Work = () => {
               </ItemText>
             </Item>
             <Fade right>
-              <lead>
+              <FormatP>
                 Ecommerce platform built with React using Hooks, MongoDb,
                 Node/Express and dependencies such as react helmet.
-              </lead>
+              </FormatP>
             </Fade>
             <Item>
               <ItemImage>
-                <img src='img/items/item1.png' alt='' />
+                <img src='img/herobridge2.jpg' alt='' />
               </ItemImage>
               <ItemText>
                 <ItemTextWrap>
@@ -58,14 +55,14 @@ export const Work = () => {
               </ItemText>
             </Item>
             <Fade right>
-              <lead>
+              <FormatP>
                 Ecommerce platform built with React using Hooks, MongoDb,
                 Node/Express and dependencies such as react helmet.
-              </lead>
+              </FormatP>
             </Fade>
             <Item>
               <ItemImage>
-                <img src='img/items/item1.png' alt='' />
+                <img src='img/herobridge2.jpg' alt='' />
               </ItemImage>
               <ItemText>
                 <ItemTextWrap>
@@ -75,7 +72,7 @@ export const Work = () => {
               </ItemText>
             </Item>
             <Fade right>
-              <lead>
+              <FormatP>
                 Ecommerce platform built with React using Hooks, MongoDb,
                 Node/Express and dependencies such as react helmet.
                 <a href='/work' className='btn-light'>
@@ -84,13 +81,11 @@ export const Work = () => {
                 <a href='/work' className='btn-light'>
                   Live Site
                 </a>
-              </lead>
+              </FormatP>
             </Fade>
           </ItemsContainer>
         </Container>
       </section>
-
-      {/* <Footer /> */}
     </div>
   )
 }

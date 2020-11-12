@@ -5,7 +5,6 @@ export const AboutTechStyles = styled.div`
   height: 20px;
   width: 90%;
   background: #ccc;
-  border-radius: 5px;
   margin-bottom: 0.6rem;
 
   div {

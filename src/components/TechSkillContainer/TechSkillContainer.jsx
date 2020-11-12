@@ -4,7 +4,7 @@ import { AboutTechStyles } from './TechSkillContainer.styles'
 export const TechSkillContainer = () => {
   return (
     <div>
-      <h4>React :</h4>
+      <h4>React</h4>
       <AboutTechStyles>
         <div>
           <p>
@@ -14,7 +14,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>JavaScript :</h4>
+      <h4>JavaScript</h4>
       <AboutTechStyles>
         <div>
           <p>
@@ -22,7 +22,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>HTML :</h4>
+      <h4>HTML</h4>
       <AboutTechStyles>
         <div>
           <p>
@@ -30,7 +30,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>CSS :</h4>
+      <h4>CSS</h4>
       <AboutTechStyles>
         <div>
           <p>
@@ -38,7 +38,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>Node/Express :</h4>
+      <h4>Node/Express</h4>
       <AboutTechStyles>
         <div>
           <p>
@@ -46,7 +46,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>MongoDb / Mongoose :</h4>
+      <h4>MongoDb / Mongoose</h4>
       <AboutTechStyles>
         <div>
           <p>

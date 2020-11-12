@@ -3,13 +3,15 @@ import styled from 'styled-components'
 export const ItemsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
 `
 
 export const Item = styled.div`
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  margin-top: 50px;
+  margin-left: 50px;
 
   &::after {
     content: '';
@@ -93,4 +95,7 @@ export const ItemTextWrap = styled.div`
     opacity: 0.7;
     margin: 0;
   }
+`
+export const FormatP = styled.h4`
+  margin: 50px;
 `

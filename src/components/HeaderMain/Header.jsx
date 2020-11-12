@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { HeaderHome, NavContainer, NavItem } from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
@@ -38,10 +37,6 @@ const Header = () => {
               ]}
             />
           </Lead>
-
-          <Link to='/work' className='btn-light'>
-            View My Work
-          </Link>
         </div>
       </Container>
     </HeaderHome>
