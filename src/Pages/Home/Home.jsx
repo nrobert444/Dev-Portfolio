@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../components/HeaderMain/Header'
 import { Footer } from '../../components/Footer/Footer'
 import { Container } from '../../components/Container/Container'
+import { About } from '../About/About'
+import { Work } from '../Work/Work'
 
 import {
   BottomLine,
@@ -14,7 +16,9 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      <FormattedSection>
+      <About />
+      <Work />
+      {/* <FormattedSection>
         <Container>
           <SectionTitle>I Specialize In</SectionTitle>
           <BottomLine />
@@ -24,7 +28,7 @@ export const Home = () => {
           technologies. The stack I utilize is MongoDb, Express, NodeJS, and
           React.
         </Lead>
-      </FormattedSection>
+      </FormattedSection> */}
       <Footer />
     </div>
   )

@@ -9,7 +9,7 @@ export const AboutInfoStyles = styled.div`
     grid-area: bioimage;
     height: 300px;
     width: auto;
-    border: 2px solid #ccc;
+    border-right: 3px solid #ffbc00;
   }
 
   .bio {

@@ -8,7 +8,6 @@ export const ItemsContainer = styled.div`
 
 export const Item = styled.div`
   position: relative;
-  background: #ffbc00;
   overflow: hidden;
   cursor: pointer;
 
@@ -16,7 +15,7 @@ export const Item = styled.div`
     content: '';
     position: absolute;
     display: block;
-    background: inherit;
+    background: #ffbc00;
     opacity: 0.9;
     top: 0;
     left: 0;

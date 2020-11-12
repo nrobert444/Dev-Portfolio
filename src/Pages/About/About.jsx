@@ -7,10 +7,10 @@ import { AboutTech } from '../../components/AboutTech/AboutTech'
 export const About = () => {
   return (
     <div>
-      <HeaderSub />
+      {/* <HeaderSub /> */}
       <AboutInfo />
       <AboutTech />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -3,10 +3,7 @@ import { TechGrid, Buffer, DivideLine } from './AboutTech.styles'
 import { Container } from '../Container/Container'
 import { TechLogoContainer } from '../TechLogoContainer/TechLogoContainer'
 import { TechSkillContainer } from '../TechSkillContainer/TechSkillContainer'
-import {
-  BottomLine,
-  SectionTitle
-} from '../Container/Container.style'
+import { BottomLine, SectionTitle } from '../Container/Container.style'
 
 export const AboutTech = () => {
   return (
@@ -20,7 +17,7 @@ export const AboutTech = () => {
         <DivideLine />
         <TechLogoContainer />
       </TechGrid>
-      <Buffer />
+      {/* <Buffer /> */}
     </>
   )
 }
