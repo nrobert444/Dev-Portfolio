@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 
 export const AboutInfo = () => {
   return (
-    <div>
+    <div id='about'>
       <section className='text-center py-2 bg-light'>
         <Container>
           <SectionTitle>About Me</SectionTitle>

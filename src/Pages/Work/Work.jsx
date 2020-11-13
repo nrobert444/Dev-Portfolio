@@ -7,8 +7,7 @@ import {
   ItemImage,
   ItemText,
   ItemTextWrap,
-  FormatP,
-  StyledProjLink
+  FormatP
 } from './Work.styles'
 import { Container } from '../../components/Container/Container'
 import {
@@ -20,7 +19,7 @@ import Fade from 'react-reveal/Fade'
 
 export const Work = () => {
   return (
-    <div>
+    <div id='work'>
       <section className='text-center py-3'>
         <Container>
           <SectionTitle>My Work</SectionTitle>

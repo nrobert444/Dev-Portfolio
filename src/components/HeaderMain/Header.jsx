@@ -3,15 +3,31 @@ import { HeaderHome, NavContainer, NavItem } from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
 import { Container } from '../Container/Container'
+import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
-    <HeaderHome>
+    <HeaderHome id='top'>
       <Container>
         <NavContainer>
-          <NavItem to='/'>Home</NavItem>
-          <NavItem to='/about'>About</NavItem>
-          <NavItem to='/work'>Work</NavItem>
+          <NavItem>
+            {' '}
+            <Link to='top' spy={true} smooth={true} duration={800}>
+              Home
+            </Link>
+          </NavItem>
+          <NavItem>
+            {' '}
+            <Link to='about' spy={true} smooth={true} duration={800}>
+              About
+            </Link>
+          </NavItem>
+          <NavItem>
+            {' '}
+            <Link to='work' spy={true} smooth={true} duration={800}>
+              Work
+            </Link>
+          </NavItem>
           <NavItem to='/contact'>Contact</NavItem>
         </NavContainer>{' '}
         <div className='header-content'>

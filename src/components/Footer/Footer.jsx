@@ -7,7 +7,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import { MainFooter, FooterContent, StyledLink } from './Footer.styles'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-scroll'
 
 export const Footer = () => {
   return (
@@ -15,6 +16,9 @@ export const Footer = () => {
       <div className='container'></div>
       <FooterContent className='container'>
         <p>Copyright &copy; 2020 All Rights Reserved</p>
+        <Link to='top' spy={true} smooth={true} duration={800}>
+          <FontAwesomeIcon icon={faChevronUp} style={{ cursor: 'pointer' }} />
+        </Link>
         <div className='social'>
           <StyledLink href='https://twitter.com/Nichola55137683'>
             <FontAwesomeIcon className='fab' icon={faTwitter} />
