@@ -29,7 +29,7 @@ export const Work = () => {
             <Item>
               <Fade left>
                 <ItemImage>
-                  <img src='img/about-pic.jpg' alt='' />
+                  <img src='img/moonriseStore.png' alt='' />
                 </ItemImage>
               </Fade>
               <ItemText>
@@ -45,11 +45,17 @@ export const Work = () => {
                   Ecommerce platform built with React using Hooks, MongoDb,
                   Node/Express and dependencies such as react helmet.
                 </FormatP>
-                <a href='/work' className='btn-dark'>
+                <a
+                  href='https://github.com/nrobert444/Moonrise-Media-Store'
+                  className='btn-dark'
+                >
                   <FontAwesomeIcon className='fab fa-lg' icon={faGithub} />{' '}
                   Github
                 </a>{' '}
-                <a href='/work' className='btn-dark'>
+                <a
+                  href='https://moonrisemediastoreapp.herokuapp.com'
+                  className='btn-dark'
+                >
                   Live Site
                 </a>
               </div>

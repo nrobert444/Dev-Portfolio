@@ -36,6 +36,7 @@ export const ItemImage = styled.div`
   height: auto;
   transform: translateZ(0);
   display: block;
+  border: 2px solid black;
   transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
 
   &:before {
@@ -50,7 +51,7 @@ export const ItemImage = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 0;
   }
 `
@@ -98,19 +99,4 @@ export const ItemTextWrap = styled.div`
 `
 export const FormatP = styled.h4`
   margin: 50px;
-`
-export const StyledProjLink = styled.a`
-  color: black;
-  text-decoration: none;
-
-  &:focus,
-  &:hover,
-  &:visited {
-    color: white;
-  }
-  &:link,
-  &:active {
-    text-decoration: none;
-    color: white;
-  }
 `
