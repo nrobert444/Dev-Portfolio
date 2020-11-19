@@ -32,7 +32,7 @@ const Header = () => {
         </NavContainer>{' '}
         <div className='header-content'>
           <h1>Nick Roberto </h1>
-          <Lead>
+          <Lead style={{ color: '#ffbc00' }}>
             {' '}
             <Typical
               loop={Infinity}
