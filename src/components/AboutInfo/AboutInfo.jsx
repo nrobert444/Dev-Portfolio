@@ -17,7 +17,7 @@ export const AboutInfo = () => {
               <img src='img/about-pic.jpg' alt='' className='bio-image' />
             </Fade>
             <Fade right>
-              <div className='bio bg-dark'>
+              <div className='bio bg-medium'>
                 <h4>Your Project Is In Safe Hands</h4>
                 <Lead>
                   My name is Nicholas Roberto, i'm a full stack JavaScript

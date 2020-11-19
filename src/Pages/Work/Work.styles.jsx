@@ -4,6 +4,7 @@ export const ItemsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
+  background: lightgray;
 `
 
 export const Item = styled.div`

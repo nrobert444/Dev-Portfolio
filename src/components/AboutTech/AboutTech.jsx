@@ -13,7 +13,7 @@ export const AboutTech = () => {
         <SectionTitle>Technologies</SectionTitle>
         <BottomLine />
       </Container>
-      <TechGrid className='bg-dark py-3'>
+      <TechGrid className='bg-medium py-3'>
         <Fade left>
           <TechSkillContainer />
         </Fade>

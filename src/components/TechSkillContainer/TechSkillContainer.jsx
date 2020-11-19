@@ -1,10 +1,10 @@
 import React from 'react'
-import { AboutTechStyles } from './TechSkillContainer.styles'
+import { AboutTechStyles, TitleContainer } from './TechSkillContainer.styles'
 
 export const TechSkillContainer = () => {
   return (
     <div>
-      <h4>React</h4>
+      <TitleContainer>React</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
@@ -14,7 +14,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>JavaScript</h4>
+      <TitleContainer>JavaScript</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
@@ -22,7 +22,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>HTML</h4>
+      <TitleContainer>HTML</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
@@ -30,7 +30,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>CSS</h4>
+      <TitleContainer>CSS</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
@@ -38,7 +38,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>Node/Express</h4>
+      <TitleContainer>Node/Express</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
@@ -46,7 +46,7 @@ export const TechSkillContainer = () => {
           </p>
         </div>
       </AboutTechStyles>
-      <h4>MongoDb / Mongoose</h4>
+      <TitleContainer>MongoDb / Mongoose</TitleContainer>
       <AboutTechStyles>
         <div>
           <p>
