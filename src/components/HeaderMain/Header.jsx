@@ -39,17 +39,11 @@ const Header = () => {
               wrapper='b'
               steps={[
                 'Software Developer',
-                2000,
-                'Technologist',
-                2000,
+                3000,
+                'Frontend Specialist',
+                3000,
                 'Business Owner',
-                2000,
-                'Father',
-                2000,
-                'Husband',
-                2000,
-                'Film Fanatic',
-                2000
+                3000
               ]}
             />
           </Lead>
