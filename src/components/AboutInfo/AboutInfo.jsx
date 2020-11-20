@@ -9,16 +9,14 @@ export const AboutInfo = () => {
     <div id='about'>
       <section className='text-center py-2 bg-light'>
         <Container>
-          <SectionTitle>About Me</SectionTitle>
+          <SectionTitle>About</SectionTitle>
           <BottomLine />
-          <Lead>Let me tell you a little about myself and what I do...</Lead>
           <AboutInfoStyles>
             <Fade up>
               <img src='img/about-pic.jpg' alt='' className='bio-image' />
             </Fade>
             <Fade right>
               <div className='bio bg-medium'>
-                <h4>Your Project Is In Safe Hands</h4>
                 <Lead>
                   My name is Nicholas Roberto, i'm a full stack JavaScript
                   developer with a specialty in front end UI/UX. I specialize in

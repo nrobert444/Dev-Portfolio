@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 export const ItemsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
   background: lightgray;
 
-  @media (max-width: 800px) {
-    grid-template-columns: repeat(1, 1fr);
-    padding-right: 3rem;
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 `
 
@@ -16,9 +15,11 @@ export const Item = styled.div`
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin: 1rem 2rem 2rem 2rem;
 
+  &::first-child {
+    margin: 1rem 2rem 5rem 2rem;
+  }
   &::after {
     content: '';
     position: absolute;
@@ -116,13 +117,14 @@ export const ItemTextWrap = styled.div`
 export const FormatP = styled.h4`
   text-align: center;
   padding-left: 3rem;
-  margin-top: 3rem;
+  padding-right: 3rem;
+  margin-top: 1rem;
 `
 export const ButtonLink = styled.a`
   display: flex;
   justify-content: center;
   width: auto;
-  margin: 1rem 3rem 0 5rem;
+  margin: 1rem 5rem 1rem 5rem;
 
   @media (max-width: 500px) {
     & a {

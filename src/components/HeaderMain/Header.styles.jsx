@@ -59,15 +59,17 @@ export const NavContainer = styled.nav`
 export const NavItem = styled(Link)`
   padding: 1rem 1.5rem;
   color: #fff;
+  font-weight: 500;
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;
   transition: border-color 0.5s;
   &:hover {
-    border-color: #ccc;
+    border-color: #ffbc00;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
+    color: #000;
     padding: 1rem;
     flex-direction: row;
     align-items: center;

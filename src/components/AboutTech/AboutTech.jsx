@@ -22,7 +22,6 @@ export const AboutTech = () => {
           <TechLogoContainer />
         </Fade>
       </TechGrid>
-      {/* <Buffer /> */}
     </>
   )
 }

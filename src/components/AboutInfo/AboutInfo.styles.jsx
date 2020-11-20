@@ -7,8 +7,8 @@ export const AboutInfoStyles = styled.div`
 
   .bio-image {
     grid-area: bioimage;
-    height: 300px;
-    width: auto;
+    height: 400px;
+    width: 28rem;
     border-right: 3px solid #ffbc00;
   }
 
@@ -18,7 +18,7 @@ export const AboutInfoStyles = styled.div`
     padding: 0.8rem;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     grid-template-areas:
       'bioimage'
       'bio';
