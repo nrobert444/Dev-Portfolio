@@ -1,5 +1,5 @@
 import React from 'react'
-import { TechGrid, Buffer, DivideLine } from './AboutTech.styles'
+import { TechGrid, DivideLine } from './AboutTech.styles'
 import { Container } from '../Container/Container'
 import { TechLogoContainer } from '../TechLogoContainer/TechLogoContainer'
 import { TechSkillContainer } from '../TechSkillContainer/TechSkillContainer'
