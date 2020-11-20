@@ -34,9 +34,9 @@ export const Footer = () => {
           <StyledLink href='https://github.com/nrobert444'>
             <FontAwesomeIcon className='fab' icon={faGithub} />
           </StyledLink>
-          <StyledRouteLink to='/contact'>
+          {/* <StyledRouteLink to='/contact'>
             <FontAwesomeIcon className='fab' icon={faEnvelope} />
-          </StyledRouteLink>
+          </StyledRouteLink> */}
         </div>
       </FooterContent>
     </MainFooter>
