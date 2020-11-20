@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavContainer, NavItem } from '../HeaderMain/Header.styles'
+import { NavContainer, NavItem } from '../HeaderSub/HeaderSub.styles'
 import { HeaderInner } from './HeaderSub.styles'
 import { Container } from '../Container/Container'
 
@@ -8,10 +8,7 @@ const HeaderSub = () => {
     <HeaderInner>
       <Container>
         <NavContainer>
-          <NavItem to='/'>Home</NavItem>
-          <NavItem to='/about'>About</NavItem>
-          <NavItem to='/work'>Work</NavItem>
-          <NavItem to='/contact'>Contact</NavItem>
+          <NavItem to='/'>Go Back</NavItem>
         </NavContainer>{' '}
       </Container>
     </HeaderInner>
