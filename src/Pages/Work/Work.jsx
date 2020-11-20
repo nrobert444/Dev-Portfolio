@@ -27,25 +27,23 @@ export const Work = () => {
           <BottomLine />
           <Lead>Check out some of my projects</Lead>
           <ItemsContainer>
-            <Item>
-              <Fade left>
-                <ItemImage>
-                  <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+            <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+              <Item>
+                <Fade left>
+                  <ItemImage>
                     <img src='img/moonriseStore.png' alt='' />
-                  </NoStyleA>
-                </ItemImage>
-              </Fade>
-              <ItemText>
-                <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+                  </ItemImage>
+                </Fade>
+                <ItemText>
                   <ItemTextWrap>
                     <p className='item-text-category'>Full-Stack App</p>
                     <h2 className='item-text-title'>
                       Moonrise Ecommerce Store
                     </h2>
                   </ItemTextWrap>
-                </NoStyleA>
-              </ItemText>
-            </Item>
+                </ItemText>
+              </Item>
+            </NoStyleA>
             <Fade right>
               <div>
                 <FormatP>
