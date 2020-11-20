@@ -7,7 +7,8 @@ import {
   ItemImage,
   ItemText,
   ItemTextWrap,
-  FormatP
+  FormatP,
+  NoStyleA
 } from './Work.styles'
 import { Container } from '../../components/Container/Container'
 import {
@@ -29,14 +30,20 @@ export const Work = () => {
             <Item>
               <Fade left>
                 <ItemImage>
-                  <img src='img/moonriseStore.png' alt='' />
+                  <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+                    <img src='img/moonriseStore.png' alt='' />
+                  </NoStyleA>
                 </ItemImage>
               </Fade>
               <ItemText>
-                <ItemTextWrap>
-                  <p className='item-text-category'>Full-Stack App</p>
-                  <h2 className='item-text-title'>Moonrise Ecommerce Store</h2>
-                </ItemTextWrap>
+                <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+                  <ItemTextWrap>
+                    <p className='item-text-category'>Full-Stack App</p>
+                    <h2 className='item-text-title'>
+                      Moonrise Ecommerce Store
+                    </h2>
+                  </ItemTextWrap>
+                </NoStyleA>
               </ItemText>
             </Item>
             <Fade right>

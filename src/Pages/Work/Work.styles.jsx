@@ -27,7 +27,6 @@ export const Item = styled.div`
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
     transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
   }
-  //Bring in main color overlay
   &:hover:after {
     transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
   }
@@ -78,7 +77,18 @@ export const ItemText = styled.div`
     transform: translateY(0);
   }
 `
+export const NoStyleA = styled.a`
+  text-decoration: none;
+  color: inherit;
 
+  &:focus,
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
+`
 export const ItemTextWrap = styled.div`
   position: absolute;
   width: 100%;
