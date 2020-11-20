@@ -5,6 +5,11 @@ export const ItemsContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
   background: lightgray;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 3rem;
+  }
 `
 
 export const Item = styled.div`
@@ -109,5 +114,39 @@ export const ItemTextWrap = styled.div`
   }
 `
 export const FormatP = styled.h4`
-  margin: 50px;
+  text-align: center;
+  padding-left: 3rem;
+  margin-top: 3rem;
+`
+export const ButtonLink = styled.a`
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 1rem 3rem 0 5rem;
+
+  @media (max-width: 500px) {
+    & a {
+      display: flex;
+      justify-content: center;
+      width: auto;
+      margin-top: 1rem;
+    }
+  }
+  @media (max-width: 800px) {
+    & a {
+      display: flex;
+      justify-content: center;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-top: 0.5rem;
+    }
+  }
+  @media (max-width: 1600px) {
+    & a {
+      margin-top: 2rem;
+    }
+    &:hover {
+      color: #ffbc00;
+    }
+  }
 `

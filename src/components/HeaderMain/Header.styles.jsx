@@ -16,19 +16,17 @@ export const HeaderHome = styled.header`
   }
 
   @media (max-width: 800px) {
-    height: 30rem;
     & .header-content {
       padding-top: 5rem;
     }
   }
 
   @media (max-width: 500px) {
-    height: 10rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%;
 
     & .header-content {
-      display: none;
+      padding-top: 5rem;
     }
   }
 
