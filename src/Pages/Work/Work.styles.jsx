@@ -42,7 +42,7 @@ export const ItemImage = styled.div`
   height: auto;
   transform: translateZ(0);
   display: block;
-  border: 2px solid black;
+  border: 1px solid black;
   transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
 
   &:before {

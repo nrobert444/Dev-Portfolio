@@ -32,7 +32,7 @@ export const Work = () => {
               <Item>
                 <Fade left>
                   <ItemImage>
-                    <img src='img/moonriseStore.png' alt='' />
+                    <img src='img/moonrisestore2.png' alt='' />
                   </ItemImage>
                 </Fade>
                 <ItemText>
@@ -66,18 +66,19 @@ export const Work = () => {
                 </ButtonLink>
               </div>
             </Fade>
-            <NoStyleA href='https://moonrisemediastoreapp.herokuapp.com'>
+
+            <NoStyleA href='https://earth-force.herokuapp.com'>
               <Item>
                 <Fade left>
                   <ItemImage>
-                    <img src='img/moonriseStore.png' alt='' />
+                    <img src='img/earthforce.png' alt='' />
                   </ItemImage>
                 </Fade>
                 <ItemText>
                   <ItemTextWrap>
                     <p className='item-text-category'>Full-Stack App</p>
                     <h2 className='item-text-title'>
-                      Moonrise Ecommerce Store
+                      Earth Force Disaster Awareness App
                     </h2>
                   </ItemTextWrap>
                 </ItemText>
@@ -90,14 +91,14 @@ export const Work = () => {
                   Node/Express and dependencies such as react helmet.
                 </FormatP>
                 <ButtonLink
-                  href='https://github.com/nrobert444/Moonrise-Media-Store'
+                  href='https://github.com/smart-invester'
                   className='btn-dark'
                 >
                   <FontAwesomeIcon className='fab fa-lg' icon={faGithub} />{' '}
                   Github
                 </ButtonLink>{' '}
                 <ButtonLink
-                  href='https://moonrisemediastoreapp.herokuapp.com'
+                  href='https://earth-force.herokuapp.com'
                   className='btn-dark'
                 >
                   Live Site
@@ -115,7 +116,7 @@ export const Work = () => {
                   <ItemTextWrap>
                     <p className='item-text-category'>Full-Stack App</p>
                     <h2 className='item-text-title'>
-                      Moonrise Ecommerce Store
+                      Earth Force Disaster Tracker
                     </h2>
                   </ItemTextWrap>
                 </ItemText>

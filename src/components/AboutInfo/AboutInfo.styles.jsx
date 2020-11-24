@@ -7,15 +7,15 @@ export const AboutInfoStyles = styled.div`
 
   .bio-image {
     grid-area: bioimage;
-    height: 400px;
+    height: 35rem;
     width: 28rem;
-    border-right: 3px solid #ffbc00;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   }
 
   .bio {
     grid-area: bio;
-    border-left: 3px solid #ffbc00;
     padding: 0.8rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   }
 
   @media (max-width: 800px) {

@@ -13,7 +13,7 @@ export const AboutInfo = () => {
           <BottomLine />
           <AboutInfoStyles>
             <Fade up>
-              <img src='img/about-pic.jpg' alt='' className='bio-image' />
+              <img src='img/aboutimage.jpg' alt='' className='bio-image' />
             </Fade>
             <Fade right>
               <div className='bio bg-medium'>

@@ -72,6 +72,11 @@ export const TechLogoContainer = () => {
           />
         </ImageContainer>
       </Icon>
+      <Icon>
+        <ImageContainer>
+          <img src='img/netlify.png' alt='logo' />
+        </ImageContainer>
+      </Icon>
     </TechLogosContainer>
   )
 }

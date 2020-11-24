@@ -1,5 +1,5 @@
 .container {
-  max-width: 1280px;
+  max-width: 1680px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
@@ -184,29 +184,7 @@ input[class^='btn-']:hover {
   margin: 0;
 }
 
-/* #logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase;
-}
 
-#home-a .specials {
-  margin-top: 3 rem;
-  display: grid;
-  grid-gap: 1 rem;
-  grid-template-columns: repeat(4, 1fr);
-}
-#home-a .specials .fas {
-  color: #ffbc00;
-  padding-bottom: 0.4rem;
-}
-
-#about-a .about-info {
-  display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
-  grid-gap: 1.2rem;
-} */
 
 #about-a .bio-image {
   grid-area: bioimage;

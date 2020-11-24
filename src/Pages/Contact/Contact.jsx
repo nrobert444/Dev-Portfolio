@@ -150,7 +150,7 @@ export class ContactPage extends Component {
           <div className='container'>
             <h2 className='section-title'>Contact Me</h2>
             <div className='bottom-line'></div>
-            <p className='lead'>Here is how you can reach me.</p>
+            <p className='lead'>Let's Work Together</p>
             <form
               method='POST'
               data-netlify='true'
