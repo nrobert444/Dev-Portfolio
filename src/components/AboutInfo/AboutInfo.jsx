@@ -18,14 +18,17 @@ export const AboutInfo = () => {
             <Fade right>
               <div className='bio bg-medium'>
                 <Lead>
-                  My name is Nicholas Roberto, i'm a full stack JavaScript
-                  developer with a specialty in front end UI/UX. I specialize in
-                  the 'MERN' stack but have utilized multiple frameworks,
-                  libraries and languages to supplement my development. I have a
-                  background in entrepreneurship and freelancing that has helped
-                  me to quickly aquire the skills needed to be proficient in a
-                  short period of time. I have a passion for fitness, films,
-                  craft beer and being being a father and husband.
+                  My name is Nicholas Roberto, i'm a full stack developer
+                  specializing in front end UI/UX. I'm passionate about creating
+                  solutions through software development that help bring a
+                  little more simplicity to our otherwise complex world. The
+                  core development stack I use is React, Node/Express, and
+                  MongoDB though I have utilized a large number of additional
+                  libraries/frameworks and tools. In my free time I love to
+                  explore new technologies and find creative ways to implement
+                  them in my work and supplement my growth as a developer. When
+                  i'm not doing that you can find me hanging out with the
+                  family, or indulging in my passion for cinema.
                 </Lead>
               </div>
             </Fade>
