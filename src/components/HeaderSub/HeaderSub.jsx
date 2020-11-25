@@ -8,7 +8,7 @@ const HeaderSub = () => {
     <HeaderInner>
       <Container>
         <NavContainer>
-          <NavItem to='/'>Go Back</NavItem>
+          <NavItem to='/'>Home</NavItem>
         </NavContainer>{' '}
       </Container>
     </HeaderInner>
