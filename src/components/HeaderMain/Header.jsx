@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderHome, NavContainer, NavItem } from './Header.styles'
+import { HeaderHome, NavContainer, NavItem, NavATag } from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
 import { Container } from '../Container/Container'
@@ -29,6 +29,13 @@ const Header = () => {
             </Link>
           </NavItem>
           <NavItem to='/contact'>Contact</NavItem>
+          <NavATag
+            href='NJRresume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Resume
+          </NavATag>
         </NavContainer>{' '}
         <div className='header-content'>
           <h1>Nick Roberto </h1>
