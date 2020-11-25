@@ -6,13 +6,8 @@ import {
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
 
-import {
-  MainFooter,
-  FooterContent,
-  StyledLink,
-  StyledRouteLink
-} from './Footer.styles'
-import { faEnvelope, faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { MainFooter, FooterContent, StyledLink } from './Footer.styles'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
 
 export const Footer = () => {
@@ -34,9 +29,6 @@ export const Footer = () => {
           <StyledLink href='https://github.com/nrobert444'>
             <FontAwesomeIcon className='fab' icon={faGithub} />
           </StyledLink>
-          {/* <StyledRouteLink to='/contact'>
-            <FontAwesomeIcon className='fab' icon={faEnvelope} />
-          </StyledRouteLink> */}
         </div>
       </FooterContent>
     </MainFooter>
