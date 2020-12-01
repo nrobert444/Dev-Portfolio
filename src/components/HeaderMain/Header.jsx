@@ -1,5 +1,11 @@
 import React from 'react'
-import { HeaderHome, NavContainer, NavItem, NavATag } from './Header.styles'
+import {
+  HeaderHome,
+  NavContainer,
+  NavItem,
+  NavItemSpan,
+  NavATag
+} from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
 import { Container } from '../Container/Container'
@@ -10,24 +16,24 @@ const Header = () => {
     <HeaderHome id='top'>
       <Container>
         <NavContainer>
-          <NavItem>
+          <NavItemSpan>
             {' '}
             <Link to='top' spy={true} smooth={true} duration={800}>
               Home
             </Link>
-          </NavItem>
-          <NavItem>
+          </NavItemSpan>
+          <NavItemSpan>
             {' '}
             <Link to='about' spy={true} smooth={true} duration={800}>
               About
             </Link>
-          </NavItem>
-          <NavItem>
+          </NavItemSpan>
+          <NavItemSpan>
             {' '}
             <Link to='work' spy={true} smooth={true} duration={800}>
               Work
             </Link>
-          </NavItem>
+          </NavItemSpan>
           <NavItem to='/contact'>Contact</NavItem>
           <NavATag
             href='NRSDresume1.pdf'

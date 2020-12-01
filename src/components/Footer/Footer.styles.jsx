@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export const MainFooter = styled.footer`
   background: #333333;
@@ -55,18 +55,18 @@ export const StyledLink = styled.a`
     color: white;
   }
 `
-export const StyledRouteLink = styled(Link)`
-  color: white;
-  text-decoration: none;
+// export const StyledRouteLink = styled(Link)`
+//   color: white;
+//   text-decoration: none;
 
-  &:focus,
-  &:hover,
-  &:visited {
-    color: white;
-  }
-  &:link,
-  &:active {
-    text-decoration: none;
-    color: white;
-  }
-`
+//   &:focus,
+//   &:hover,
+//   &:visited {
+//     color: white;
+//   }
+//   &:link,
+//   &:active {
+//     text-decoration: none;
+//     color: white;
+//   }
+// `

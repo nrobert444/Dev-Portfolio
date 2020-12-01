@@ -5,6 +5,10 @@ export const ContainerStyle = styled.div`
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
+
+  @media (max-width: 500px) {
+    padding: 0;
+  }
 `
 
 export const SectionTitle = styled.h2`
@@ -31,4 +35,8 @@ export const Lead = styled.p`
 export const FormattedSection = styled.section`
   text-align: center;
   padding: 2rem 0;
+
+  @media (max-height: 330px) {
+    padding: 0 auto;
+  }
 `
