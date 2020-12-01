@@ -30,7 +30,7 @@ const Header = () => {
           </NavItem>
           <NavItem to='/contact'>Contact</NavItem>
           <NavATag
-            href='NRSDresume.pdf'
+            href='NRSDresume1.pdf'
             target='_blank'
             rel='noopener noreferrer'
           >
