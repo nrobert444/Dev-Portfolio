@@ -52,6 +52,7 @@ export const NavContainer = styled.nav`
 
   @media (max-width: 500px) {
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
 `

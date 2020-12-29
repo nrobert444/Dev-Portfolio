@@ -36,7 +36,7 @@ const Header = () => {
           </NavItemSpan>
           <NavItem to='/contact'>Contact</NavItem>
           <NavATag
-            href='NRSDresume1.pdf'
+            href='NickRobertoCanvaDev.pdf'
             target='_blank'
             rel='noopener noreferrer'
           >
