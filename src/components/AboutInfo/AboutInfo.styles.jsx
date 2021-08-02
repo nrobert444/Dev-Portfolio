@@ -67,5 +67,5 @@ export const ButtonLink = styled.a`
 `
 export const StyledImg = styled.img`
   width: 100%;
-  height: 33vh;
+  height: 31vh;
 `
