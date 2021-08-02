@@ -10,7 +10,7 @@ export const AboutInfoStyles = styled.div`
     align-items: center;
     justify-items: center;
     width: auto;
-    height: 35rem;
+    height: 25rem;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   }
 
