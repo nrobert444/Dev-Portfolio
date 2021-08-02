@@ -61,6 +61,12 @@ const Header = () => {
             />
           </Lead>
         </div>
+        <div>
+          <img
+            src='img/SalesforceCertificateLogo copy.png'
+            alt='salesforce certificates'
+          ></img>
+        </div>
       </Container>
     </HeaderHome>
   )
