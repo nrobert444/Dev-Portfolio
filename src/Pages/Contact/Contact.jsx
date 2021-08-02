@@ -83,7 +83,7 @@ export class ContactPage extends Component {
         message: message
       }
       emailjs.send(
-        'service_3znnbll',
+        'service_wtayp99',
         'template_8pmdpvv',
         templateParams,
         'user_Gc6lEF3vqHjatR76h1Gvh'
