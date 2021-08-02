@@ -51,12 +51,12 @@ const Header = () => {
               loop={Infinity}
               wrapper='b'
               steps={[
-                'Software Developer',
-                3000,
-                'Frontend Specialist',
-                3000,
-                'Business Owner',
-                3000
+                'Salesforce Advanced Administrator',
+                2000,
+                'Salesforce Platform Developer',
+                2000,
+                'Salesforce Administrator',
+                2000
               ]}
             />
           </Lead>
