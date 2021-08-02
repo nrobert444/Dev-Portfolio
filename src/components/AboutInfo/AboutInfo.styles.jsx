@@ -17,6 +17,7 @@ export const AboutInfoStyles = styled.div`
   .bio {
     grid-area: bio;
     padding: 0.8rem;
+    font-size: 1 rem;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   }
 
