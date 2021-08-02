@@ -15,7 +15,7 @@ export const AboutInfo = () => {
           alt='salesforce certificates'
         ></StyledImg>
       </div>
-      <section className='text-center py-2 bg-light'>
+      <section className='text-center bg-light'>
         <Container>
           <SectionTitle>About</SectionTitle>
           <BottomLine />
