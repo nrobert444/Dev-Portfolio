@@ -115,3 +115,7 @@ export const NavATag = styled.a`
     align-items: center;
   }
 `
+export const StyledImg = styled.img`
+  width: 100%;
+  height: 15%;
+`

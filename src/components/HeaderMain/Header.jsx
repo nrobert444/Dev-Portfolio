@@ -4,7 +4,8 @@ import {
   NavContainer,
   NavItem,
   NavItemSpan,
-  NavATag
+  NavATag,
+  StyledImg
 } from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
@@ -62,10 +63,10 @@ const Header = () => {
           </Lead>
         </div>
         <div>
-          <img
+          <StyledImg
             src='img/SalesforceCertificateLogo copy.png'
             alt='salesforce certificates'
-          ></img>
+          ></StyledImg>
         </div>
       </Container>
     </HeaderHome>
