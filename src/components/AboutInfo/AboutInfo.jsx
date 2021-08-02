@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutInfoStyles, ButtonLink } from './AboutInfo.styles'
+import { AboutInfoStyles, ButtonLink, StyledImg } from './AboutInfo.styles'
 import { Container } from '../Container/Container'
 import { BottomLine, SectionTitle, Lead } from '../Container/Container.style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,6 +9,12 @@ import Fade from 'react-reveal/Fade'
 export const AboutInfo = () => {
   return (
     <div id='about'>
+      <div>
+        <StyledImg
+          src='img/SalesforceCertificateLogo copy.png'
+          alt='salesforce certificates'
+        ></StyledImg>
+      </div>
       <section className='text-center py-2 bg-light'>
         <Container>
           <SectionTitle>About</SectionTitle>

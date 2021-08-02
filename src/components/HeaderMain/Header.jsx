@@ -4,8 +4,7 @@ import {
   NavContainer,
   NavItem,
   NavItemSpan,
-  NavATag,
-  StyledImg
+  NavATag
 } from './Header.styles'
 import Typical from 'react-typical'
 import { Lead } from '../Container/Container.style'
@@ -44,7 +43,6 @@ const Header = () => {
             Resume
           </NavATag>
         </NavContainer>{' '}
-        
         <div className='header-content'>
           <h1>Nick Roberto </h1>
           <Lead style={{ color: '#ffbc00' }}>
@@ -64,12 +62,6 @@ const Header = () => {
           </Lead>
         </div>
       </Container>
-      <div>
-        <StyledImg
-          src='img/SalesforceCertificateLogo copy.png'
-          alt='salesforce certificates'
-        ></StyledImg>
-      </div>
     </HeaderHome>
   )
 }
