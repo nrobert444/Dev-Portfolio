@@ -5,7 +5,6 @@
   overflow: hidden;
 }
 
-
 .btn-main,
 .btn-light,
 .btn-dark {
@@ -58,7 +57,7 @@ input[class^='btn-']:hover {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
