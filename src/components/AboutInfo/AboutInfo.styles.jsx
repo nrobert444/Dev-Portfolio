@@ -33,15 +33,35 @@ export const AboutInfoStyles = styled.div`
     }
   }
 `
-export const NoStyleA = styled.a`
-  text-decoration: none;
-  color: #ffbc00;
+export const ButtonLink = styled.a`
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 1rem 5rem 1rem 5rem;
 
-  &:focus,
-  &:hover,
-  &:visited,
-  &:link,
-  &:active {
-    text-decoration: none;
+  @media (max-width: 500px) {
+    & a {
+      display: flex;
+      justify-content: center;
+      width: auto;
+      margin-top: 1rem;
+    }
+  }
+  @media (max-width: 800px) {
+    & a {
+      display: flex;
+      justify-content: center;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-top: 0.5rem;
+    }
+  }
+  @media (max-width: 1600px) {
+    & a {
+      margin-top: 2rem;
+    }
+    &:hover {
+      color: #ffbc00;
+    }
   }
 `

@@ -1,7 +1,9 @@
 import React from 'react'
-import { AboutInfoStyles, NoStyleA } from './AboutInfo.styles'
+import { AboutInfoStyles, ButtonLink } from './AboutInfo.styles'
 import { Container } from '../Container/Container'
 import { BottomLine, SectionTitle, Lead } from '../Container/Container.style'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSalesforce } from '@fortawesome/free-brands-svg-icons'
 import Fade from 'react-reveal/Fade'
 
 export const AboutInfo = () => {
@@ -38,9 +40,16 @@ export const AboutInfo = () => {
                   achievements and Certifications!
                   <br></br>
                   <br></br>
-                  <NoStyleA href='https://trailblazer.me/id/nroberto2'>
+                  <ButtonLink
+                    href='https://trailblazer.me/id/nroberto2'
+                    className='btn-dark'
+                  >
+                    <FontAwesomeIcon
+                      className='fab fa-salesforce'
+                      icon={faSalesforce}
+                    />{' '}
                     My Trailhead Profile
-                  </NoStyleA>
+                  </ButtonLink>
                 </Lead>
               </div>
             </Fade>
