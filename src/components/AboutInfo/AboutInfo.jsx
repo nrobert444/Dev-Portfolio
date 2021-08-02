@@ -18,17 +18,23 @@ export const AboutInfo = () => {
             <Fade right>
               <div className='bio bg-medium'>
                 <Lead>
-                  Full stack software engineer specializing in front end UI/UX.
-                  I'm passionate about creating solutions through software
-                  development that help bring a little more simplicity to our
-                  otherwise complex world. The core development stack I use is
-                  React w/ Redux, Node/Express, and MongoDB though I have
-                  utilized a large number of additional libraries/frameworks and
-                  tools. In my free time I love to explore new technologies and
-                  find creative ways to implement them in my work and supplement
-                  my growth as a developer. When i'm not doing that you can find
-                  me hanging out with the family, or indulging in my passion for
-                  cinema.
+                  I am a Salesforce Certified Advanced Administrator with a
+                  passion for efficiency and solving complex business problems.
+                  With over 8 years of experience optimizing business
+                  performance in many industries, I have strong analytical
+                  skills with an interest in understanding data and utilizing
+                  information to make informed business decisions. 
+                  
+                  In my free time I enjoy learning all that I can about Salesforce and
+                  related technologies to enchance my understanding and share
+                  with the community at large. I am also a member of a
+                  Salesforce Professional Development Program to learn
+                  additional aspects of the Salesforce Ecosystem and network to
+                  build valuable professional relationships.
+                  
+                  Outside of my passion for Salesforce I enjoy spending time with my family,
+                  experimenting with cooking, exercising, and indulging my
+                  passion for cinema.
                 </Lead>
               </div>
             </Fade>
