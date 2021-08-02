@@ -1,6 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faTwitter,
+  faLinkedin,
+  faGithub
+} from '@fortawesome/free-brands-svg-icons'
 import { faMountain } from '@fortawesome/free-solid-svg-icons'
 
 import { MainFooter, FooterContent, StyledLink } from './Footer.styles'
@@ -25,6 +29,9 @@ export const Footer = () => {
           </StyledLink>
           <StyledLink href='https://trailblazer.me/id/nroberto2'>
             <FontAwesomeIcon className='fab' icon={faMountain} />
+          </StyledLink>
+          <StyledLink href='https://github.com/nrobert444'>
+            <FontAwesomeIcon className='fab' icon={faGithub} />
           </StyledLink>
         </div>
       </FooterContent>
