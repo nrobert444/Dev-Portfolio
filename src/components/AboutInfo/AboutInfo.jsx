@@ -20,7 +20,7 @@ export const AboutInfo = () => {
             <Fade right>
               <div className='bio bg-medium'>
                 <Lead>
-                  I am a Salesforce Certified Advanced Administrator with a
+                  I am a 3x Salesforce Certified Advanced Administrator with a
                   passion for efficiency and solving complex business problems.
                   With over 8 years of experience optimizing business
                   performance in many industries, I have strong analytical
