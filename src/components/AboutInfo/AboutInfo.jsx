@@ -11,7 +11,7 @@ export const AboutInfo = () => {
     <div id='about'>
       <div>
         <StyledImg
-          src='img/SalesforceCertificateLogo copy.png'
+          src='img/salesforce banner.png'
           alt='salesforce certificates'
         ></StyledImg>
       </div>
