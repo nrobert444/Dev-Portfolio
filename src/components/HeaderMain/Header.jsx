@@ -44,6 +44,7 @@ const Header = () => {
             Resume
           </NavATag>
         </NavContainer>{' '}
+        
         <div className='header-content'>
           <h1>Nick Roberto </h1>
           <Lead style={{ color: '#ffbc00' }}>
