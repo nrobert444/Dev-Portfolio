@@ -34,8 +34,6 @@ export const AboutInfo = () => {
                   experimenting with cooking, exercising, and indulging my
                   passion for cinema.
                   <br></br>
-                  <br></br>
-                  <br></br>
                   Check out the link below to see some of my Trailhead
                   achievements and Certifications!
                   <br></br>
