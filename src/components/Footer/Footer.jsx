@@ -1,10 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faTwitter,
-  faLinkedin,
-  faMountain
-} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMountain } from '@fortawesome/free-solid-svg-icons'
 
 import { MainFooter, FooterContent, StyledLink } from './Footer.styles'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
