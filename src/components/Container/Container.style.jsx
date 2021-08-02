@@ -28,7 +28,7 @@ export const BottomLine = styled.div`
   margin: 0 auto 1rem auto;
 `
 export const Lead = styled.p`
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 `
 
