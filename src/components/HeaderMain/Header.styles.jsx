@@ -117,5 +117,5 @@ export const NavATag = styled.a`
 `
 export const StyledImg = styled.img`
   width: 100%;
-  height: 35vh;
+  height: 33vh;
 `
