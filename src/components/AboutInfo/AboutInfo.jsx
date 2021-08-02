@@ -43,11 +43,14 @@ export const AboutInfo = () => {
                   <ButtonLink
                     href='https://trailblazer.me/id/nroberto2'
                     className='btn-dark'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <FontAwesomeIcon
-                      className='fab fa-salesforce'
+                      className='fab fa-lg'
                       icon={faSalesforce}
-                    />{' '}
+                    />
+                    {'   '}
                     My Trailhead Profile
                   </ButtonLink>
                 </Lead>
