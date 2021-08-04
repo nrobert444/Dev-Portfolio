@@ -10,7 +10,7 @@ export const AboutInfo = () => {
   return (
     <div id='about'>
       <div>
-        <Fade down>
+        <Fade left>
           <StyledImg
             src='img/salesforce banner.png'
             alt='salesforce certificates'
