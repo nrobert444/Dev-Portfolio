@@ -10,7 +10,7 @@ export const AboutInfoStyles = styled.div`
     align-items: center;
     justify-items: center;
     width: auto;
-    height: 25rem;
+    height: 28rem;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
   }
 
@@ -68,5 +68,5 @@ export const ButtonLink = styled.a`
 export const StyledImg = styled.img`
   width: 100%;
   height: 31vh;
-  border-top: 1px solid white;
+  border-top: 2px solid white;
 `

@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade'
 export const AboutInfo = () => {
   return (
     <div id='about'>
-      <div className='py-1'>
+      <div>
         <Fade left>
           <StyledImg
             src='img/salesforce banner.png'
