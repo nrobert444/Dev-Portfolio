@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 export const HeaderHome = styled.header`
-  background: url('../img/herobridge2.jpg') no-repeat center right/cover;
+  background: url('../img/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg') no-repeat
+    center right/cover;
   height: 100vh;
   color: #fff;
 
@@ -115,4 +116,3 @@ export const NavATag = styled.a`
     align-items: center;
   }
 `
-
