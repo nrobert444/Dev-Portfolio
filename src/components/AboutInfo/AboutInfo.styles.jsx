@@ -67,6 +67,5 @@ export const ButtonLink = styled.a`
 `
 export const StyledImg = styled.img`
   width: 100%;
-  height: 31vh;
-  border-top: 2px solid white;
+  height: 29vh;
 `
