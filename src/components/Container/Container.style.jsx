@@ -14,7 +14,6 @@ export const ContainerStyle = styled.div`
 export const SectionTitle = styled.h2`
   font-size: 2rem;
   display: block;
-  padding-bottom: 0.5rem;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
