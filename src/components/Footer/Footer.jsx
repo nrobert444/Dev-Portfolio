@@ -24,7 +24,7 @@ export const Footer = () => {
           <StyledLink href='https://twitter.com/Nichola55137683'>
             <FontAwesomeIcon className='fab' icon={faTwitter} />
           </StyledLink>
-          <StyledLink href='https://www.linkedin.com/in/nicholas-roberto/'>
+          <StyledLink href='https://www.linkedin.com/in/nicholas-salesforce/'>
             <FontAwesomeIcon className='fab' icon={faLinkedin} />
           </StyledLink>
           <StyledLink href='https://trailblazer.me/id/nroberto2'>

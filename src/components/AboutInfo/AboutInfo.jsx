@@ -3,17 +3,19 @@ import { AboutInfoStyles, ButtonLink, StyledImg } from './AboutInfo.styles'
 import { Container } from '../Container/Container'
 import { BottomLine, SectionTitle, Lead } from '../Container/Container.style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSalesforce } from '@fortawesome/free-brands-svg-icons'
+import { faSalesforce, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Fade from 'react-reveal/Fade'
 
 export const AboutInfo = () => {
   return (
     <div id='about'>
       <div>
-        <StyledImg
-          src='img/salesforce banner.png'
-          alt='salesforce certificates'
-        ></StyledImg>
+        <Fade down>
+          <StyledImg
+            src='img/salesforce banner.png'
+            alt='salesforce certificates'
+          ></StyledImg>
+        </Fade>
       </div>
       <section className='text-center bg-light'>
         <Container>
@@ -58,6 +60,16 @@ export const AboutInfo = () => {
                     />
                     {'   '}
                     My Trailhead Profile
+                  </ButtonLink>
+                  <ButtonLink
+                    href='https://www.linkedin.com/in/nicholas-salesforce/'
+                    className='btn-dark'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <FontAwesomeIcon className='fab fa-lg' icon={faLinkedin} />
+                    {'   '}
+                    My LinkedIn Profile
                   </ButtonLink>
                 </Lead>
               </div>
