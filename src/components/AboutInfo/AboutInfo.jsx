@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade'
 export const AboutInfo = () => {
   return (
     <div id='about'>
-      <div>
+      <div className='py-1'>
         <Fade left>
           <StyledImg
             src='img/salesforce banner.png'
@@ -17,7 +17,7 @@ export const AboutInfo = () => {
           ></StyledImg>
         </Fade>
       </div>
-      <section className='text-center bg-light'>
+      <section className='text-center'>
         <Container>
           <SectionTitle>About</SectionTitle>
           <BottomLine />
