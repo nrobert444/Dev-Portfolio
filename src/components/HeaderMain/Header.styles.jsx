@@ -11,7 +11,7 @@ export const HeaderHome = styled.header`
     text-align: center;
     padding-top: 20%;
     & h1 {
-      font-size: 4rem;
+      font-size: 5rem;
       line-height: 1.2;
     }
   }

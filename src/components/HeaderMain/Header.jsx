@@ -44,8 +44,8 @@ const Header = () => {
           </NavATag>
         </NavContainer>{' '}
         <div className='header-content'>
-          <h1>Nick Roberto </h1>
-          <Lead style={{ color: '#ffbc00' }}>
+          <h1>Nicholas Roberto </h1>
+          <Lead style={{ color: '#ffbc00', fontSize: '1.3 rem' }}>
             {' '}
             <Typical
               loop={Infinity}
